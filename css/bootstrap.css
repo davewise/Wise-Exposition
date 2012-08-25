@@ -140,7 +140,7 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #0088cc;
+  color: #3A60A6;
   text-decoration: none;
 }
 a:hover {
@@ -362,7 +362,7 @@ h5,
 h6 {
   margin: 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -2805,28 +2805,28 @@ input[type="submit"].btn.btn-mini {
 .navbar {
   *position: relative;
   *z-index: 2;
-  overflow: visible;
-  margin-bottom: 18px;
+	overflow: visible;
+	margin-bottom: 0px;
 }
 .navbar-inner {
-  min-height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
-  background-repeat: repeat-x;
+	min-height: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #2c2c2c;
+	background-image: -moz-linear-gradient(top, #333333, #222222);
+	background-image: -ms-linear-gradient(top, #333333, #222222);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
+	background-image: -webkit-linear-gradient(top, #333333, #222222);
+	background-image: -o-linear-gradient(top, #333333, #222222);
+	background-image: linear-gradient(top, #333333, #222222);
+	background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
 }
 .navbar .container {
   width: auto;
@@ -2843,13 +2843,14 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 8px 20px 12px;
+  padding: 25px 20px 12px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
   line-height: 1;
   color: #999999;
 }
+
 .navbar .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
@@ -2991,11 +2992,11 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 9px 10px 11px;
+  padding: 44px 10px 11px;
   line-height: 19px;
-  color: #999999;
+  color: #3A60A6;
   text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 .navbar .btn {
   display: inline-block;
@@ -3009,14 +3010,14 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #272660;
   text-decoration: none;
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #222222;
+  background-color: #3E60A3;
 }
 .navbar .divider-vertical {
   height: 40px;
@@ -3037,17 +3038,17 @@ input[type="submit"].btn.btn-mini {
   margin-left: 5px;
   margin-right: 5px;
   background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-image: -moz-linear-gradient(top, #3E60A3, #3E60A3);
+  background-image: -ms-linear-gradient(top, #3E60A3, #3E60A3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3E60A3), to(#3E60A3));
+  background-image: -webkit-linear-gradient(top, #3E60A3, #3E60A3);
+  background-image: -o-linear-gradient(top, #3E60A3, #3E60A3);
+  background-image: linear-gradient(top, #3E60A3, #3E60A3);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-  border-color: #222222 #222222 #000000;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3E60A3', endColorstr='#3E60A3', GradientType=0);
+  border-color: #3E60A3 #3E60A3 #000000;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #222222;
+  *background-color: #3E60A3;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -3060,8 +3061,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
-  background-color: #222222;
-  *background-color: #151515;
+  background-color: #3E60A3;
+  *background-color: #3E60A3;
 }
 .navbar .btn-navbar:active,
 .navbar .btn-navbar.active {
@@ -4285,16 +4286,23 @@ button.close {
   .carousel-caption {
     position: static;
   }
+  
+  .navbar .brand{
+	    padding-top:25px;
+  }
 }
 @media (max-width: 767px) {
   body {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     margin-left: -20px;
     margin-right: -20px;
+  }
+  .navbar .brand{
+	    padding-top:25px;
   }
   .container-fluid {
     padding: 0;
@@ -4346,6 +4354,10 @@ button.close {
   .input-append input[class*="span"] {
     display: inline-block;
     width: auto;
+  }
+  
+   .navbar .brand{
+	    padding-top:25px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -4779,10 +4791,16 @@ button.close {
     margin-left: 0;
   }
 }
+
+
+
 @media (max-width: 979px) {
   body {
     padding-top: 0;
+	padding-left:0px;
+	padding-right:0px;
   }
+  
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     position: static;
@@ -4805,6 +4823,7 @@ button.close {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 0 0 -5px;
+	padding-top:25px;
   }
   .nav-collapse {
     clear: both;
@@ -4910,5 +4929,27 @@ button.close {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+  }
+}
+
+@media (max-width: 320px) {
+	.navbar .brand {
+    padding-left: 10px;
+	margin-left: 0px;
+    padding-right: 0px;
+    margin: 0 0 0 -5px;
+  }
+  
+  .navbar-inner {
+	padding-left: 10px;
+    padding-right: 0px;
+	padding-top: 0px;
+
+  }
+  
+  body {
+    padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
   }
 }
