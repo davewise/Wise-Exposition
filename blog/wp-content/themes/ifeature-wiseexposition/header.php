@@ -49,7 +49,7 @@ if ( !defined('ABSPATH')) exit;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </a>
-					<a class="brand" style="color:#fff; padding-top:25px; padding-left:0px;" href="../../../../index.html"><img height="50px" width="288" src="../../../../img/logo.png" /></a>
+					<a class="brand" style="color:#fff; padding-left:0px;" href="../../../../index.html"><img height="50px" width="288" src="../../../../img/logo.png" /></a>
 					<div class="nav-collapse collapse">
 						<ul class="nav" style="font-size:22px; font-weight:500; ">
                             <li class="">
