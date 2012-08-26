@@ -835,11 +835,7 @@
     position: static;
   }
 }
-<<<<<<< HEAD
 @media (max-width: 920px) {
-=======
-@media (max-width: 860px) {
->>>>>>> upstream/master
   body {
     padding-top: 0;
   }
