@@ -20,9 +20,7 @@ if ( !defined('ABSPATH')) exit;
 	
 /* End header. */
 
-?>
-
-	
+?>	
 <div class="container">
 	<div class="row">
 	<!--Begin @synapse before content sidebar hook-->

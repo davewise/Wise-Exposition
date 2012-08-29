@@ -24,7 +24,8 @@ if ( !defined('ABSPATH')) exit;
 
 <?php wp_head(); ?> <!-- wp_head();-->
 <link rel="stylesheet" type="text/css" href="../../../../css/bootstrap.css">
-<link href="../../../../css/bootstrap-responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../../css/bootstrap-responsive.css" >
+<link rel="stylesheet" href="../../../../css/wise.css" >
 
 </head><!-- closing head tag-->
 
@@ -40,7 +41,7 @@ if ( !defined('ABSPATH')) exit;
 <div class="wrapper">
 			
 <header>
-<div class="navbar navbar-top">
+<div class="navbar navbar-fixed-top">
             <div class="navbar-inner" style="background:#F5F5F5; color:#fff;">
 				<div class="container">
                     <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -49,7 +50,7 @@ if ( !defined('ABSPATH')) exit;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </a>
-					<a class="brand" style="color:#fff; padding-left:0px;" href="../../../../index.html"><img height="50px" width="288" src="../../../../img/logo.png" /></a>
+					<a class="brand" style="color:#fff;" href="../../../../index.html"><img height="50px" width="288" src="../../../../img/logo.png" /></a>
 					<div class="nav-collapse collapse">
 						<ul class="nav" style="font-size:22px; font-weight:500; ">
                             <li class="">
@@ -71,7 +72,10 @@ if ( !defined('ABSPATH')) exit;
 					</div>
 				</div>
 			</div>
-        </div>		
+        </div>
+        <div class="wiseTopRowPush">
+		</div>
+		
 	<?php
 		foreach(explode(",", $options->get('header_section_order')) as $fn) {
 			if(function_exists($fn)) {
