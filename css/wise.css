@@ -45,4 +45,7 @@
 	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 		padding:0px;	
 	}
+	.hero-unit {
+		padding-top:30px;
+	}
 }

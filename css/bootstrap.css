@@ -145,7 +145,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #263f6d;
+  color: #192948;
   text-decoration: none;
 }
 .img-rounded {
@@ -2764,7 +2764,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 .btn-link:hover {
-  color: #263f6d;
+  color: #192948;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3214,8 +3214,8 @@ input[type="submit"].btn.btn-mini {
   margin-top: 6px;
 }
 .nav .dropdown-toggle:hover .caret {
-  border-top-color: #263f6d;
-  border-bottom-color: #263f6d;
+  border-top-color: #192948;
+  border-bottom-color: #192948;
 }
 /* move down carets for tabs */
 .nav-tabs .dropdown-toggle .caret {
