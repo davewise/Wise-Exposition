@@ -389,14 +389,23 @@
   input.span1, textarea.span1, .uneditable-input.span1 {
     width: 56px;
   }
-  .thumbnails {
+  .thumbnails,
+  .thumbnailsWise {
     margin-left: -30px;
   }
   .thumbnails > li {
     margin-left: 30px;
   }
-  .row-fluid .thumbnails {
+  .thumbnailsWise > li {
+    margin-left: 30px;
+    min-height: 450px;
+  }
+  .row-fluid .thumbnails,
+  .row-fluid .thumbnailsWise {
     margin-left: 0;
+  }
+  .thumbnailWise {
+    min-height: 450px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -710,6 +719,9 @@
   input.span1, textarea.span1, .uneditable-input.span1 {
     width: 28px;
   }
+  .thumbnailWise {
+    min-height: 400px;
+  }
 }
 @media (max-width: 767px) {
   body {
@@ -740,12 +752,21 @@
     width: 100%;
   }
   .row,
-  .thumbnails {
+  .thumbnails,
+  .thumbnailsWise {
     margin-left: 0;
   }
   .thumbnails > li {
     float: none;
     margin-left: 0;
+  }
+  .thumbnailsWise > li {
+    float: none;
+    margin-left: 0;
+    min-height: 500px;
+  }
+  .thumbnailWise {
+    min-height: 500px;
   }
   [class*="span"],
   .row-fluid [class*="span"] {
@@ -835,7 +856,7 @@
     position: static;
   }
 }
-@media (max-width: 920px) {
+@media (max-width: 979px) {
   body {
     padding-top: 0;
   }
@@ -844,7 +865,7 @@
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .navbar-fixed-bottom {
     margin-top: 20px;

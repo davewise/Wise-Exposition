@@ -15,14 +15,20 @@
   #grid > .input(@gridColumnWidth1200, @gridGutterWidth1200);
 
   // Thumbnails
-  .thumbnails {
+  .thumbnails, .thumbnailsWise{
     margin-left: -@gridGutterWidth1200;
   }
   .thumbnails > li {
     margin-left: @gridGutterWidth1200;
   }
-  .row-fluid .thumbnails {
+  .thumbnailsWise > li {
+    margin-left: @gridGutterWidth1200;
+	min-height: 450px;
+  }
+  .row-fluid .thumbnails,  .row-fluid .thumbnailsWise{
     margin-left: 0;
   }
-
+  .thumbnailWise {
+	min-height: 450px;
+  }
 }

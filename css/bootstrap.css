@@ -137,7 +137,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #3a60a6;
   background-color: #ffffff;
 }
 a {
@@ -145,8 +145,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #263f6d;
-  text-decoration: underline;
+  color: #192948;
+  text-decoration: none;
 }
 .img-rounded {
   -webkit-border-radius: 6px;
@@ -501,7 +501,7 @@ h5,
 h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -1184,7 +1184,7 @@ select:focus:required:invalid:focus {
 }
 .help-block,
 .help-inline {
-  color: #595959;
+  color: #6487c9;
 }
 .help-block {
   display: block;
@@ -2764,7 +2764,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 .btn-link:hover {
-  color: #263f6d;
+  color: #192948;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3214,8 +3214,8 @@ input[type="submit"].btn.btn-mini {
   margin-top: 6px;
 }
 .nav .dropdown-toggle:hover .caret {
-  border-top-color: #263f6d;
-  border-bottom-color: #263f6d;
+  border-top-color: #192948;
+  border-bottom-color: #192948;
 }
 /* move down carets for tabs */
 .nav-tabs .dropdown-toggle .caret {
@@ -3390,8 +3390,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 23.5px 20px 23.5px;
-  margin-left: -20px;
+  padding: 23.5px 20px 23.5px 20px;
+  margin-left: -40px;
   font-size: 20px;
   font-weight: 200;
   color: #3a60a6;
@@ -4299,19 +4299,39 @@ input[type="submit"].btn.btn-mini {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-a.thumbnail:hover {
+.thumbnailWise {
+  display: block;
+  padding: 4px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  min-height: 400px;
+}
+a.thumbnail:hover,
+a.thumbnailWise:hover {
   border-color: #3a60a6;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
-.thumbnail > img {
+.thumbnail > img,
+.thumbnailWise > img {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.thumbnail .caption {
+.thumbnail .caption,
+.thumbnailWise .caption {
   padding: 9px;
   color: #555555;
 }
