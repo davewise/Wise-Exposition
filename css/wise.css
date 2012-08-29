@@ -1,0 +1,48 @@
+/* CSS Document */
+
+.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+	padding:49px;	
+}
+
+/* Responsive
+-------------------------------------------------- */
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:49px;	
+	}
+}
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:49px;	
+	}
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:0px;	
+	}
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 768px) {
+	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:0px;	
+	}
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:0px;	
+	}
+}
