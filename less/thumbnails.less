@@ -6,13 +6,13 @@
 // Note: `.thumbnails` and `.thumbnails > li` are overriden in responsive files
 
 // Make wrapper ul behave like the grid
-.thumbnails {
+.thumbnails{
   margin-left: -@gridGutterWidth;
   list-style: none;
   .clearfix();
 }
 // Fluid rows have no left margin
-.row-fluid .thumbnails {
+.row-fluid .thumbnails{
   margin-left: 0;
 }
 
@@ -33,20 +33,32 @@
   .box-shadow(0 1px 3px rgba(0,0,0,.055));
   .transition(all .2s ease-in-out);
 }
+// The actual thumbnail (can be `a` or `div`)
+.thumbnailWise {
+  display: block;
+  padding: 4px;
+  line-height: @baseLineHeight;
+  border: 1px solid #ddd;
+  .border-radius(4px);
+  .box-shadow(0 1px 3px rgba(0,0,0,.055));
+  .transition(all .2s ease-in-out);
+  min-height: 400px;
+}
+
 // Add a hover state for linked versions only
-a.thumbnail:hover {
+a.thumbnail:hover, a.thumbnailWise:hover {
   border-color: @linkColor;
   .box-shadow(0 1px 4px rgba(0,105,214,.25));
 }
 
 // Images and captions
-.thumbnail > img {
+.thumbnail > img, .thumbnailWise > img {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.thumbnail .caption {
+.thumbnail .caption,  .thumbnailWise .caption{
   padding: 9px;
   color: @gray;
 }

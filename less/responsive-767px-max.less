@@ -48,13 +48,22 @@
   }
   // Undo negative margin on rows and thumbnails
   .row,
-  .thumbnails {
+  .thumbnails, .thumbnailsWise{
     margin-left: 0;
   }
   .thumbnails > li {
     float: none;
     margin-left: 0; // Reset the default margin for all li elements when no .span* classes are present
   }
+  .thumbnailsWise > li {
+    float: none;
+    margin-left: 0; // Reset the default margin for all li elements when no .span* classes are present
+	min-height: 500px;
+  }
+  .thumbnailWise {
+	min-height: 500px;
+  }
+
   // Make all grid-sized elements block level again
   [class*="span"],
   .row-fluid [class*="span"] {
