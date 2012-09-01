@@ -25,6 +25,40 @@
         <title> 
             Wise Expositon | Business Writing Workshops
         </title>
+        <script type="text/javascript" src="js/jquery-1.8.0.min.js">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#leapfrogThumb').click(function(){
+                    $('#leapfrog').slideToggle();
+                });
+                $('#HPThumb').click(function(){
+                    $('#HP').slideToggle();
+                });
+                $('#googleThumb').click(function(){
+                    $('#google').slideToggle();
+                });
+                $('#marklogicThumb').click(function(){
+                    $('#marklogicThumb').slideToggle();
+                });
+                $('#equinixThumb').click(function(){
+                    $('#equinix').slideToggle();
+                });
+                $('#stewardThumb').click(function(){
+                    $('#steward').slideToggle();
+                });
+                $('#catholicThumb').click(function(){
+                    $('#catholic').slideToggle();
+                });
+                $('#youthThumb').click(function(){
+                    $('#youth').slideToggle();
+                });
+                 $('#ashlandThumb').click(function(){
+                    $('#ashland').slideToggle();
+                });
+
+            });
+        </script>
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-29869446-1']);
@@ -77,44 +111,83 @@
                 <div class="row">
                     <ul class="thumbnails">
                         <li class="span3">
-                            <img src="img/leapfrog.jpg">
+                            <a  id="leapfrogThumb">
+                                <img src="img/leapfrog.jpg">
+                            </a>
                         </li>
                         <li class="span3" >
-                            <img src="img/HP.jpg">
+                            <a  id="HPThumb">
+                                <img src="img/HP.jpg">
+                            </a>
+                        </li>
+                        <li class="span3" > 
+                            <a  id="googleThumb">
+                                <img src="img/google_logo.jpg" >
+                            </a>
                         </li>
                         <li class="span3" >
-                          <img src="img/google_logo.jpg" >
+                            <a  id="marklogicThumb">
+                                <img src="img/logo.jpg">
+                            </a>    
+                        </li>
+                        <div style="display:none;" class="span12" id="leapfrog">Loremopksfeokwerijserijserijserijserisjeriosjreosiejriseojr</div>
+                        <div style="display:none;" class="span12" id="HP"></div>
+                        <div style="display:none;" class="span12" id="google"></div>
+                        <div style="display:none;" class="span12" id="marklogic"></div>
+                        <li class="span3">
+                            <a  id="equinixThumb">
+                                <img src="img/EQIX_logoGIF_transparent.gif">
+                            </a>
                         </li>
                         <li class="span3" >
-                            <img src="img/logo.jpg">
+                            <a  id="stewardThumb">
+                                <img src="img/stwd.jpg">
+                            </a>    
                         </li>
                         <li class="span3" >
-                            <img src="img/EQIX_logoGIF_transparent.gif">
+                            <a  id="catholicThumb">                            
+                                <img src="img/view.gif" >
+                            </a>    
                         </li>
                         <li class="span3" >
-                            <img src="img/stwd.jpg">
+                            <a href="#" id="youthThumb">
+                                <img src="img/fyi.png" >
+                            </a>
+                        </li>
+                        <div style="display:none;" class="span12" id="equinix">Loremopksfeokwerijserijserijserijserisjeriosjreosiejriseojr</div>
+                        <div style="display:none;" class="span12" id="steward"></div>
+                        <div style="display:none;" class="span12" id="catholic"></div>
+                        <div style="display:none;" class="span12" id="youth"></div>
+                        <li class="span3" >
+                            <a  id="ashlandThumb">
+                                <img src="img/images.jpeg" >
+                            </a>
                         </li>
                         <li class="span3" >
-                            <img src="img/view.gif" >
+                            <a  id="UNEXThumb">
+                                <img src="img/UNEX.jpg">
+                            </a>
                         </li>
                         <li class="span3" >
-                            <img src="img/fyi.png" >
+                            <a  id="UCSFThumb">                            
+                                <img src="img/220px-UCSF_Seal.png">
+                            </a>
                         </li>
                         <li class="span3" >
-                            <img src="img/images.jpeg" >
+                            <a  id="thomsonThumb">                            
+                                <img src="img/logo_thomson_west.jpg">
+                            </a>
                         </li>
+                        <div style="display:none;" class="span12" id="ashland"><p>Laboris banksy american apparel, yr butcher tempor voluptate placeat esse. Bushwick sartorial reprehenderit polaroid. Stumptown you probably haven't heard of them semiotics pour-over, mollit occaecat culpa vero labore hoodie street art pariatur aesthetic. Ex sartorial aesthetic cliche. Cupidatat craft beer vero qui vegan. Ea nisi sartorial banksy marfa, mollit consectetur do scenester yr. Minim consequat twee est occupy adipisicing.</p><p>Hella elit minim forage, nihil Austin cupidatat farm-to-table pour-over occaecat wolf you probably haven't heard of them. Brunch single-origin coffee portland labore adipisicing. Dreamcatcher pariatur fugiat trust fund odd future, commodo brooklyn. Mumblecore anim deserunt, veniam banh mi synth cillum forage put a bird on it dolor street art thundercats. VHS brooklyn before they sold out PBR, fingerstache retro 3 wolf moon fixie hoodie reprehenderit cray ad swag. Next level qui wayfarers scenester etsy, helvetica craft beer hella. Trust fund cliche eiusmod assumenda, gentrify consectetur jean shorts odd future.</p><p>Whatever freegan thundercats biodiesel aliqua echo park. Farm-to-table godard laborum pickled culpa incididunt. Aesthetic culpa lo-fi, enim stumptown non quis. Elit before they sold out kogi skateboard, quinoa commodo aliqua eiusmod +1 marfa. Food truck post-ironic marfa assumenda pitchfork. Minim pop-up leggings aliquip, 3 wolf moon commodo qui banksy vegan. Mixtape cardigan pinterest gentrify.</p></div>
+                        <div style="display:none;" class="span12" id="UNEX"></div>
+                        <div style="display:none;" class="span12" id="UCSF"></div>
+                        <div style="display:none;" class="span12" id="thomson"></div>
                         <li class="span3" >
-                            <img src="img/UNEX.jpg">
+                            <a  id="kirkland">
+                                <img src="img/kirland.jpg">
+                            </a>
                         </li>
-                        <li class="span3" >
-                            <img src="img/220px-UCSF_Seal.png">
-                        </li>
-                        <li class="span3" >
-                            <img src="img/logo_thomson_west.jpg">
-                        </li>
-                        <li class="span3" >
-                            <img src="img/kirland.jpg">
-                        </li>
+                        <div style="display:none;" class="span12" id="kirland"></div>
                     </ul>
                 </div>
             </div>
