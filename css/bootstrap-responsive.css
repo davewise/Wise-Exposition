@@ -812,7 +812,7 @@
     margin: 0;
   }
   .modal.fade.in {
-    top: auto;
+    top: 10px;
   }
 }
 @media (max-width: 480px) {

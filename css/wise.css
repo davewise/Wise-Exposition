@@ -3,6 +3,17 @@
 .wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 	padding:49px;	
 }
+.wiseTopRowClientPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+	padding:64px;	
+}
+.wiseIndexHeroHeading {
+	font-size:24px; 
+	line-height:40px;
+}
+.wiseIndexHeroText {
+	font-size:16px; 
+	line-height:25px;
+}
 
 /* Responsive
 -------------------------------------------------- */
@@ -13,6 +24,10 @@
 	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 		padding:49px;	
 	}
+	.wiseTopRowClientPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:64px;	
+	}
+
 }
 
 /* Desktop
@@ -21,6 +36,10 @@
 	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 		padding:49px;	
 	}
+	.wiseTopRowClientPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:64px;	
+	}
+
 }
 
 /* Tablet to desktop
@@ -28,6 +47,9 @@
 @media (min-width: 768px) and (max-width: 980px) {
 	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 		padding:0px;	
+	}
+	.wiseTopRowClientPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:15px;	
 	}
 }
 
@@ -37,6 +59,9 @@
 	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 		padding:0px;	
 	}
+	.wiseTopRowClientPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:15px;	
+	}
 }
 
 /* Landscape phones
@@ -45,7 +70,18 @@
 	.wiseTopRowPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
 		padding:0px;	
 	}
+	.wiseTopRowClientPush { /*pushes page down the height of the navbar - TODO: use a varialbe for this based on nav bar height variables*/
+		padding:15px;	
+	}
+	.wiseIndexHeroHeading {
+	font-size:24px; 
+	line-height:30px;
+}
+	.wiseIndexHeroText {
+		font-size:16px; 
+		line-height:20px;
+	}
 	.hero-unit {
-		padding-top:30px;
+		padding-top:15px;
 	}
 }
